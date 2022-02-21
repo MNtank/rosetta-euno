@@ -67,7 +67,7 @@ RUN apt-get update
 #   && apt-get install --no-install-recommends -y libevent-dev libboost-system-dev libboost-filesystem-dev libboost-test-dev libboost-thread-dev libcap-dev libboost-all-dev libdb5.3++-dev && \
 #   apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /app && mkdir -p /data
+RUN mkdir -p /app && mkdir -p /data && mkdir -p /data/eunod
 
 WORKDIR /app
 
