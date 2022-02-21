@@ -14,7 +14,9 @@
 
 package main
 
-import ()
+import (
+	"github.com/MNtank/rosetta-euno/configuration"
+)
 
 func main() {
 	cfg, err := configuration.LoadConfiguration(configuration.DataDirectory)

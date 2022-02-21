@@ -21,6 +21,8 @@ import (
 	"path"
 	"strconv"
 
+	"github.com/MNtank/rosetta-euno/eunopay"
+
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/coinbase/rosetta-sdk-go/storage/encoder"
 	"github.com/coinbase/rosetta-sdk-go/types"
